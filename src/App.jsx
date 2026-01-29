@@ -1,10 +1,15 @@
-
+import Card from "../src/components/Card";
 
 const App = () => {
   return (
-    <div>
-      hello this is app
+    <div className="parent">
+      <Card />
+     
+   
     </div>
+
+   
+ 
   )
 }
 
